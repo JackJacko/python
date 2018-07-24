@@ -5,8 +5,8 @@ app = Flask(__name__)
 def add_nums():
     # Get x,y values from the user
     usrInput = request.get_json()
-    x = usrInput["x"]
-    y = usrInput["y"]
+    x = usrInput['x']
+    y = usrInput['y']
     # Add the numbers
     sum = x+y
     # Prepare response message body
